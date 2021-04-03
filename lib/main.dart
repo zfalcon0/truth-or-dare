@@ -15,6 +15,8 @@ class MyApp extends StatelessWidget {
         splash: Image.asset('assets/tdicon.jpg'),
         nextScreen: HomePage(),
         splashTransition: SplashTransition.slideTransition,
+        backgroundColor: Colors.amber,
+        duration: 3000,
       ),
     );
   }
